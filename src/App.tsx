@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Header1 from './components/Header/Header';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="none w-full h-14 mx-auto flex justify-center items-center  bg-green-600">
+        <h1 className="flex justify-center items-center text-3xl font-bold text-black-600">Распродажа ко дню влюбленых</h1>
+      </div>
+      <Header1/>
+    </>
   );
 }
 
